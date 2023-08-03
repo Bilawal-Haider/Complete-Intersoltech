@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="Services.css">
+    <link rel="stylesheet" href="carosal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript" ></script>
+
+
+   <!-------Animation-----Link--->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <!-------Animation-----Link--->
+
+    
+     <!----Drop--Down-->
+     
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet import"
+      href="https://outsourceitprojects.com/style/style.css"
+      defer
+    />
+    <link
+      rel="stylesheet import"
+      href="https://outsourceitprojects.com/style/responsive-latest.css"
+      defer
+    />
+    <link
+      rel="stylesheet import"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+      defer
+    />
+
+
+
+    
+    <style>
+
+      .dropdown-menu{
+          position: absolute!important;
+          min-width:100rem!important;
+          left:-700px;
+          background: none;
+          bordeR:none;
+          top:2.5rem!important;
+          animation-name: example;
+           animation-duration: 4s;
+           z-index:400
+
+      }
+
+       
+@keyframes example {
+
+0%   {left:-900px; top:0px;}
+40%   {Left:-700px; top:0px}
+
+} 
+
+
+   .navbar-nav{
+      position:relative;
+   }
+
+       .main {
+        
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+list-style: none;
+cursor: pointer;
+margin: 0;
+box-sizing: border-box;
+font-family: poppins, sans-serif;
+position: absolute;
+width: 100%;
+background: linear-gradient(180deg, #0591f7, #215fda);
+border-radius: 52.35px;
+transition: 0.3s ease-in-out;
+overflow: hidden;
+right: 0;
+padding: 3.6vw;
+box-shadow: 0 2.424vw 4.242vw 0 rgb(0 0 0 / 25%);
+visibility: visible;
+opacity: 1;
+z-index: 99999!important;
+top: 3.4vw;
+}
+    </style>
+<script src="script.js"></script>
+
+
+    <!-------------Drop---Down------Link--------End-------------->
+    
+</head>
+<body>
+ 
+
+    <header class="container-fluid" style="padding:0;">
+      <div class="esi">
+
+      </div>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/Group 35.png" alt="" class="img-fluid navbar-img1" >
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item dropdown" onmouseover="myfun()" onmouseleave="myfunn()" >
+                <a class="nav-link dropdown-toggle" href="Services.html" >
+                  Services
+                </a>
+
+                
+
+                    <!-- <div  class=""> -->
+                
+                    <div id="dropdown" class="dropdown-menu mega-menu-service-main-box mega-menu-blue-inner main" >
+                        <div class="for-Small-screen" >
+                          <div class="backtoprevious">
+                            <div class="arrowprev categoryprev">
+                              <i class="fa-solid fa-arrow-left-long"></i>
+                              <h3>Back To Services</h3>
+                            </div>
+                          </div>
+                          <div class="closebtnsmall">
+                            <button class="btn-menu-small-screen">
+                              <span class="line-btn top-line"></span>
+                              <span class="line-btn middle-line"></span>
+                              <span class="line-btn bottom-line"></span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="heading-mega">
+                          <h1 class="fa-80 text-white letter-spacing-5 mb-0">Services</h1>
+                        </div>
+                        <div class="tabs-mega-menu" >
+                          <div class="services-main-services">
+                            <div class="services-parent" >
+                              <h3>Digital Services</h3>
+                              <ul>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/digital-services/creative"
+                                    >Creative Services</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/digital-services/web-development"
+                                    >Web Development</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/digital-services/app-development"
+                                    >App Development</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/digital-services/social-media-marketing-services"
+                                    >Social Media Marketing</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/digital-services/performance-marketing-agency"
+                                    >Performance Marketing</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/digital-services/search-engine-optimization"
+                                    >Search Engine Optimization</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="services-parent">
+                              <h3>Virtual Resources</h3>
+                              <ul>
+                                <li>
+                                  <a href="https://outsourceitprojects.com/resources/designer"
+                                    >Designer Resources</a
+                                  >
+                                </li>
+                                <li>
+                                  <a href="https://outsourceitprojects.com/resources/developer"
+                                    >Developer Resources</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/resources/digital-marketing"
+                                    >Marketing Resources</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/resources/virtual-assistant"
+                                    >Virtual Assistant</a
+                                  >
+                                </li>
+                                <li class="opacity-0"><a href="javascript:void(0)">&nbsp;</a></li>
+                              </ul>
+                              <div class="services-parent service-below">
+                                <h3>Ecom Services</h3>
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="https://outsourceitprojects.com/ecom-services/amazon-wholesale-fba"
+                                      >Amazon Wholesale FBA</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="https://outsourceitprojects.com/ecom-services/shopify-dropshipping"
+                                      >Shopify</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="https://outsourceitprojects.com/ecom-services/facebook-marketplace"
+                                      >Facebook Market Place</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="services-parent">
+                              <h3>Emerging Technologies</h3>
+                              <ul>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/emerging-tech/nft-services"
+                                    >NFTs</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/emerging-tech/blockchain-development-services"
+                                    >Blockchain Development</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/emerging-tech/augmented-reality-services"
+                                    >Augmented Reality</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/emerging-tech/web3-services"
+                                    >Web 3.0</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/emerging-tech/vr-development-services"
+                                    >Virtual Reality</a
+                                  >
+                                </li>
+                              </ul>
+                              <div class="services-parent service-below">
+                                <h3>BPO Services</h3>
+                                <ul>
+                                  <li>
+                                    <a
+                                      href="https://outsourceitprojects.com/bpo/sales-support-outsourcing"
+                                      >Sales Support Outsourcing</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="https://outsourceitprojects.com/bpo/operational-outsourcing"
+                                      >Operational Outsourcing</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a
+                                      href="https://outsourceitprojects.com/bpo/devops-outsourcing"
+                                      >DevOps Outsourcing</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="services-parent">
+                              <h3>Industry Plans</h3>
+                              <ul>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/industry-plans/white-label-digital-agency"
+                                    >Digital Agency</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/industry-plans/ecommerce-marketing-agency"
+                                    >Ecommerce</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/industry-plans/real-estate-marketing-agency"
+                                    >Real Estate</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/industry-plans/car-rental-marketing"
+                                    >Vehicle Rental</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/industry-plans/healthcare-digital-marketing-agency"
+                                    >Healthcare</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/industry-plans/cleaning-services-marketing"
+                                    >Cleaning Services</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/industry-plans/marketing-agency-restaurants"
+                                    >Restaurants</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/industry-plans/law-firms-marketing-agency"
+                                    >Law Firms</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/industry-plans/financial"
+                                    >Financial Services</a
+                                  >
+                                </li>
+                                <li>
+                                  <a
+                                    href="https://outsourceitprojects.com/industry-plans/professional-services"
+                                    >Professional Services</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    <!-- </div> -->
+                      
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Contect-us.html">Contect-us</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <img src="./assets/Group 36.png" alt="" class="img-fluid navbar-img2">
+            </form>
+          </div>
+        </nav>
+          </header>
+
+
+
+
+
+       
+
+
+
+    <!----------Section--1--------Start---------------------->
+
+         
+     <section class="Section1-Services">
+
+
+      <div class="container-fluid">
+        <div class="row Section1-Services-container" >
+          <div class="col-lg-6  Section1-Services-Left1" 
+          
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-quate"
+          
+          >
+            <p>Services</p>
+            <h1>COMPREHENSIVE</h1>
+            <h1>DIGITAL<span>SERVICES FOR</span></h1>
+            <h1>YOUR ONLINE SUCCESS</h1>
+             <p>Explore our comprehensive digital service for a strong online presence.From web design to</p>
+             <p>SEO and e-commerce solution,trust our experties for success</p>
+          </div>
+          <div class="col-lg-6  Section1-Services-right1">
+            <div class="img"
+            
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-quate"
+            
+            >
+
+            </div>
+          </div>
+        </div>
+        </div>
+    
+
+        </section> 
+
+        
+
+
+      <!----------Section--1--------ENd ---------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!----------Section--2--------Start---------------------->
+
+          
+     <section class="Section2-Services" >
+
+      <div class="container" >
+        <div class="row"  
+        
+        data-aos="slide-right"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-quate"
+        
+        
+        >
+
+          <div class="col Section2-Services-heading">
+            <h1>ELEVATE YOUR ONLINE PRESENCE WITH</h1>
+            <h1>OUR COMPREHENSIVE DIGITAL SERVICE</h1>
+            <p>Elevate your online presence with our comprehensive digital services.As a trusted digital agency.we offera wide rang of solution </p>
+            <p>including digital marketing services,website design and development ,e-commerce solution,SEO services,social media managment,</p>
+            <p>and more .Our team of expert will work closely with you to create effective strategies that derive results and help your bussiness thrive in</p>
+            <p style="text-align: center;">the digital landscape .Partner with us and unlock the full potential of your online success</p>
+          </div>
+
+        </div>
+      </div>
+
+        </section>  
+
+        
+
+
+      <!----------Section--2--------ENd ---------------------->
+
+
+    <!----------Section--3--------Start---------------------->
+
+         
+      <section class="Section3-Services " >
+      <div class="row container-fluid">
+        <div class=" col-md-6 col-xl-4  ">
+          <div class="card "
+          
+              data-aos="flip-up"
+              data-aos-duration="1500"
+              data-aos-easing="ease-in-quate"
+
+          >
+            <div class="card-body Section3-Services-Box ">
+              <h5 class="card-title">Web design and development</h5>
+              <p class="card-text">Create a captivating online presence with our expert web design and</p>
+              <p class="card-text">development services.We combine aesthetics and functionality to</p>
+              <p class="card-text">deliver visually stunning Websites that engage your audience and</p>
+              <p>enhance user experties</p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-6 col-xl-4 ">
+          <div class="card E-commerce "
+          
+          data-aos="flip-left"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-quate"
+          
+          >
+            <div class="card-body Section3-Services-Box ">
+              <h5 class="card-title ">E-Commerce Solution</h5>
+              <p class="card-text">Boost your online business with our tailored e-commerce solution.</p>
+              <p class="card-text">From user-friendly interface to secure payment gatways,we</p>
+              <p class="card-text">optimize your e-commerce platform for seamless transection ,</p>
+              <p class="card-text">improve customer satisfaction ,and increase conversion</p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-md-6  col-xl-4 ">
+          <div class="card"
+          
+          data-aos="flip-up"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-quate"
+
+          
+          >
+            <div class="card-body Section3-Services-Box ">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">Experice the power of web application tailored to your bussiness</p>
+              <p class="card-text">needs.Our expert devloper build robust and scalable web app that</p>
+              <p class="card-text">deliver seamless performess ,engaging user interface ,and</p>
+              <p class="card-text">enhance functionality</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    
+
+        </section> 
+
+         
+
+
+      <!----------Section--3--------ENd ---------------------->
+
+
+
+
+
+
+
+    <!----------Section--4--------Start---------------------->
+
+
+    <section class="Section4-Services">
+
+      <div class="container-fluid">
+
+      <div class="Section4-Services-main">
+
+
+        
+          <div class="card" >
+          <div class="Section4-Services-left1"
+          
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-out"
+          
+          >
+            <img src="./assets/Ellipse62.png" class="card-img  Section4-Services-img" alt="...">
+            <div class="card-img-overlay Section4-card-image-overly-left1" >
+                <h1 >FLEXIBLE</h1>
+                <h1 >PACKAGES TO</h1>
+                <h1 >MEET YOUR </h1>
+                <h1 >DIGITAL GAOLS</h1>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+      <div class="card">
+      <div class="Section4-Services-right1"
+      
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      data-aos-easing="ease-in-out"
+      
+      >
+        <img src="./assets/Ellipse62.png" class="card-img Section4-Services-img" alt="...">
+        <div class="card-img-overlay Section4-card-image-overly-right1">
+         
+            <div>
+              
+              <h1 class="Section4-Services-right1-Choose-Intersoltech">Choose Intersoltech  For Expertise</h1>
+                <h1>Reliability, And Results</h1>
+
+                <div class="Section4-Services-right1-content-paragraph">
+                <p><span>Expertise:</span>With a team of skill professionals,we bring extensive expertise in</p>
+                <p>digital marketing ,web design ,and development ,ensuring top-notch solution </p>
+                <p>tailored to your needs</p>
+              </div>
+
+                <div class="Section4-Services-right1-content-paragraph">
+                <p><span>Relaibility:</span>Count on use to deliver relaible digital services ,meeting deadline</p>
+                <p>providing transparent communication,and maintaining the heigest standards of</p>
+                <p>professionalism</p>
+              </div>
+
+                <div class="Section4-Services-right1-content-paragraph">
+                <p><span>Results:</span>Our focus on acieving measurable results sets us apart .We help you</p>
+                <p>establish a strong online presence ,drive conversion ,and elevate your brand with</p>
+                <p>our proven strategies ,and solution</p>
+              </div>
+
+
+
+          </div>
+          
+        </div>
+      </div>
+     </div>
+
+
+
+    
+
+
+  </div>
+
+</div>
+    </section>
+         
+      <!-- <section class="Section4-Services">
+
+      <div class="container-fluid">
+        <div class="row ">
+
+          <div class="col Section4-Services-left1">
+            <div>
+            <h1>FLEXIBLE</h1>
+            <h1>PACKAGES TO</h1>
+            <h1>MEET YOUR </h1>
+            <h1>DIGITAL GAOLS</h1>
+          </div>
+        </div>
+
+          <div class="col Section4-Services-right1">
+
+            <div>
+              
+              <h1 class="Section4-Services-right1-Choose-Intersoltech">Choose Intersoltech  For Expertise</h1>
+                <h1>Reliability, And Results</h1>
+
+                <div class="Section4-Services-right1-content-paragraph">
+                <p><span>Expertise:</span>With a team of skill professionals,we bring extensive expertise in</p>
+                <p>digital marketing ,web design ,and development ,ensuring top-notch solution </p>
+                <p>tailored to your needs</p>
+              </div>
+
+                <div class="Section4-Services-right1-content-paragraph">
+                <p><span>Relaibility:</span>Count on use to deliver relaible digital services ,meeting deadline</p>
+                <p>providing transparent communication,and maintaining the heigest standards of</p>
+                <p>professionalism</p>
+              </div>
+
+                <div class="Section4-Services-right1-content-paragraph">
+                <p><span>Results:</span>Our focus on acieving measurable results sets us apart .We help you</p>
+                <p>establish a strong online presence ,drive conversion ,and elevate your brand with</p>
+                <p>our proven strategies ,and solution</p>
+              </div>
+
+
+             </div>
+
+          </div>
+        </div>
+      </div>
+
+    
+
+        </section>   -->
+
+        
+
+
+      <!----------Section--4--------ENd ---------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!----------Section--5--------Start---------------------->
+
+         
+      <section class="Section5-Services">
+
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col Section5-Services-left1">
+           <h1>SEE OUR IMPRESSIVE</h1>
+           <h1>PORTFOLIO</h1>
+           <span clas="lets-talk">Let's Talks</span>
+          </div>
+          <div class="col Section5-Services-right1">
+          </div>
+        </div>
+      </div>
+
+    
+
+        </section> 
+
+        
+
+
+      <!----------Section--5--------ENd ---------------------->
+
+
+<!------------Section--6-------Start--New-----><!---col-lg-4 col-md-8 col-sm-4 col-xl-4---><!---col-lg-8 col-xl-7------>
+<section class="Section4-Portfolio container-fluid" style="padding:0;margin:5% 0">
+
+  <div class="Section4-Portfolio-main  container-fluid " style="padding:0% 13%">
+    <div class="row Section4-Portfolio-row">
+      <div class="col-12"   style="text-align: center;" 
+      
+   
+      
+      >                                                
+      
+        <div class="Section6-Services-heading"
+        
+        data-aos="slide-right"
+        data-aos-duration="1400"
+        data-aos-easing="ease-in-out"
+        
+        >
+
+          <h1>CUSTOMIZED SOLUTION FOR</h1>
+          <h1>DIVERSE INDUSTRIES</h1>
+          
+        </div>
+      
+      </div>
+
+      <div class="Section4-Portfolio-right1  col-12" style="padding:5% 0%"
+      
+       
+      
+      
+      >  
+        <div class="row row-cols-5"
+           
+        data-aos="slide-left"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+        >
+          <div class="col"
+
+       
+
+          >
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="./assets/group88.png" alt="" class="img-fluid">
+          </div>
+          
+        </div>
+      </div>
+     
+    </div>
+  </div>
+
+</section> 
+<!------------Section--6------End--New----->
+
+
+
+
+
+
+
+
+
+
+    <!----------Section--6--------Start---------------------->
+
+         
+     <!-- <section class="Section6-Services">
+
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col Section6-Services-heading">
+
+            <h1>CUSTOMIZED SOLUTION FOR</h1>
+            <h1>DIVERSE INDUSTRIES</h1>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid Section6-Services-images-main-div" >
+        <div class="row Section6-Services-images">
+          <div class="col-2 ">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          <div class="col-2 vv">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          
+          
+        </div>
+        <div class="row Section6-Services-images">
+          <div class="col-2 ">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          
+          
+        </div>
+        <div class="row Section6-Services-images">
+          <div class="col-2 ">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/group88.png" alt="">
+          </div>
+          
+          
+        </div>
+      </div>
+    
+
+        </section>  -->
+
+        
+
+
+      <!----------Section--6--------ENd ---------------------->
+
+
+
+      <!----------Section--7--------Start ---------------------->
+     
+      <!-- <section class="Section7-Services">
+
+        <div class="container-fluid">
+          <div class="row ">
+
+            <div class="col Section7-Services-main-div">
+    
+
+              <div class="accordion" id="accordionExample">
+
+
+
+
+                <div class="card cardss">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn  btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What Services do you Offer as a Digital Agency <span style="padding-left:20px"><i class="fa-solid fa-caret-down"></i></span>
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the class.
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+                <div class="card  cardss">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn  btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How Can Digital marketing benefit my Bussiness <span style="padding-left:20px"><i class="fa-solid fa-caret-down"></i></span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Some placeholder content for the second accordion panel. This panel is hidden by default.
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+                <div class="card cardss">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn  btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Do you Provide Website Design And Development for Mobile Devices <span style="padding-left:20px"><i class="fa-solid fa-caret-down"></i></span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="card  cardss">
+                  <div class="card-header" id="headingfour">
+                    <h2 class="mb-0">
+                      <button class="btn  btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                        Do you Provide Website Design And Development for Mobile Devices <span style="padding-left:20px"><i class="fa-solid fa-caret-down"></i></span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="card cardss">
+                  <div class="card-header " id="headingfive">
+                    <h2 class="mb-0">
+                      <button class="btn  btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                        Do you Provide Website Design And Development for Mobile Devices  <span style="padding-left:20px"><i class="fa-solid fa-caret-down"></i></span>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+                    <div class="card-body">
+                      And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="col Section7-Services-right1">
+
+                <div>
+                <h1>ANSWER TO</h1>
+                <h1>YOUR BURNING</h1>
+                <h1>QUESTION !</h1>
+            
+                </div>
+    
+
+
+            </div>
+
+
+          </div>
+        </div>
+
+         
+
+      </section> -->
+      
+      <!----------Section--7--------ENd ---------------------->
+
+
+
+
+      <!----------Section--8--------Start ---------------------->
+    
+      <!-- <section class="Section8-Services">
+
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col Section8-Services-left1">
+                <div>
+                <h1>GET IN TOUCH</h1>
+                <h1>WITH OUR EXPERT</h1>
+                <h1>TODAY !</h1>
+               </div>
+
+
+            </div>
+
+            <div class="col Section8-Services-right1">
+
+              <div class="row Section8-Services-right1-main">
+
+                <div class="col" >
+
+                  <div class="row " >
+                    <div class="col">
+                    <input type="text" placeholder="FirstName"  class="form-control">
+                    </div>
+                    <div class="col">
+                      <input type="text" placeholder="LastName"  class="form-control">
+      
+                    </div>
+                   </div>
+      
+                   <div class="row " >
+                    <div class="col">
+                      <input type="text" placeholder="Enter Your Email"  class="form-control">
+                    </div>
+                   </div>
+
+
+                   <div class="row " >
+                    <div class="col">
+                      <input type="text" placeholder="Write Your Message"  class="form-control">
+                    </div>
+                   </div>
+
+                   <button type="button" class="btn btn-primary" style="margin-left:20px">Submit</button>
+                    
+                   </div>
+                   
+
+
+
+                </div>
+              </div>
+              
+            
+
+            </div>
+
+          </div>
+        </div>
+
+      </section> -->
+
+
+
+
+      <!----------Section--8--------ENd ---------------------->
+ 
+     
+
+
+
+
+
+      <!----------Section--9-------Start ---------------------->
+
+      <!-- <section class="Section6-Portfolio container ">
+        <div class="container  ">
+          <div class="row ">
+            <div class="Section6-Portfolio-heading col">
+              <h1>NEWS AND<span>UPDATES</span></h1>
+            </div>
+    
+            <div style="margin-top:5%" class=" Section6-Portfolio-slider   container ">
+              <div class="container con">
+                <section class=" customer-logos slider ">
+                <div class="slide " ><img src="./assets/Slider11.PNG" ></div>
+                <div class="slide "><img src="./assets/Slider2.png"></div>
+                <div class="slide "><img src="./assets/Slider3.png"></div>
+                <div class="slide "><img src="./assets/Slider4.png"></div>
+                <div class="slide"><img src="./assets/Slider11.PNG"></div>
+                <div class="slide"><img src="./assets/Slider2.png"></div>
+                <div class="slide"><img src="./assets/Slider3.png"></div>
+                <div class="slide"><img src="./assets/Slider4.png"></div>
+                
+                
+               
+                </section>
+                </div>
+            </div>
+    
+    
+           
+          </div>
+        </div>
+      </section>  -->
+
+
+      <!----------Section--9--------ENd ---------------------->
+
+
+
+      <!----------Section--10---Footer-----Start---------------------->
+      <footer class="footer-Portfolio  text-white" >
+
+        <div class="container-fluid py-5 footer-Portfolio-main-div" >
+          <div class="row footer-Portfolio-left1">
+
+
+
+            <div class="footer-Portfolio-first  col-xl-4  col-lg-5 col-md-5 " 
+            
+            data-aos="fade-up"
+            data-aos-duration="1400"
+            data-aos-easing="ease-in-out"
+            
+            >
+              <h2><img src="./assets/Group 35.png" alt=""></h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Elgaecto ratione vero.</p>
+
+              <div>
+                <i class="fa-brands fa-youtube" style="font-size:20px;color:#6b6770"></i>
+                <i class="fa-brands fa-facebook" style="font-size:20px;color:#6b6770"></i>
+                <i class="fa-brands fa-twitter" style="font-size:20px;color:#6b6770"></i>
+                <i class="fa-brands fa-linkedin" style="font-size:20px;color:#6b6770"></i>
+              </div>
+
+
+            </div>
+
+
+
+            <div class=" footer-Portfolio-second  col-xl-2  col-lg-2 col-md-2"
+            
+             
+          data-aos="fade-down"
+          data-aos-duration="1400"
+          data-aos-easing="ease-in-out"
+            
+            
+            >
+              <h6>solution</h6>
+              <h6>client</h6>
+              <h6>knowledge</h6>
+              <ul class="list-unstyle">
+                <li><a href="">case studies</a></li>
+                <li><a href="">research</a></li>
+                <li><a href="">case studies</a></li>
+                <li><a href="">article</a></li>
+                <li><a href="">blogs</a></li>
+                <li><a href="">vedios</a></li>
+              </ul>
+
+            </div>
+
+
+            <div class="footer-Portfolio-third  col-xl-2  col-lg-2 col-md-2"
+            
+            data-aos="fade-down"
+            data-aos-duration="1400"
+            data-aos-easing="ease-in-out"
+            
+            >
+             <h6>about</h6>
+             <ul class="list-unstyle">
+              <li><a href="">philosophy</a></li>
+              <li><a href="">why us?</a></li>
+              <li><a href="">leadership</a></li>
+              <li><a href="">partners</a></li>
+              <li><a href="">advisory board</a></li>
+              <li><a href="">our journey</a></li>
+              <li><a href="">award</a></li>
+            </ul>
+            </div>
+
+
+            <div class="footer-Portfolio-forth  col-xl-2  col-lg-3 col-md-3"
+            
+            data-aos="fade-down"
+            data-aos-duration="1400"
+            data-aos-easing="ease-in-out"
+            
+            >
+              <h6>apply</h6>
+              <h6>events</h6>
+              <h6>news & media</h6>
+              <h6>let's talk</h6>
+              <h6>newsletter</h6>
+              <h6>privacy policy</h6>
+
+              </div>
+             
+
+            
+
+          </div>
+
+
+
+          <div class="row footer-Portfolio-right1" 
+          
+          data-aos="fade-up"
+          data-aos-duration="1400"
+          data-aos-easing="ease-in-out"
+          
+          >
+
+
+
+              <div class="footer-Portfolio-fifth  col-lg-12">
+
+                <h4>Sign Up For The NewsLetter</h4>
+                <p>For Lates news on recruting solutions.</p>
+
+                <form action="">
+
+                <div class="input-group">
+                 <input type="text" class="form-control" placeholder="Name*">
+                </div>
+                <div class="input-group">
+                 <input type="text" class="form-control" placeholder="Email*">
+                </div>
+
+                <div class="input-group-append">
+                  <button type="button" class="btn btn-primary">Sign up</button>
+                </div>
+
+              </form>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+        </footer> 
+
+      <!----------Section--10----Footer-----ENd ---------------------->
+
+
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.customer-logos').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            nextArrow: '.next_caro',
+            prevArrow: '.previous_caro',
+            arrows: false,
+            dots: false,
+              pauseOnHover: false,
+              responsive: [{
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 4
+              }
+            }, {
+              breakpoint: 520,
+              settings: {
+                slidesToShow: 3
+              }
+            }]
+          });
+        });
+      </script>
+
+<!-- 
+          <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" ></script> -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+   <!-- <script src="script.js"></script> -->
+
+
+
+
+  <!-------------Animation-------Script--Link------------->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+
+
+
+</body>
+</html>
