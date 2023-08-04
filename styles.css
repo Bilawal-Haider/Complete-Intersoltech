@@ -1825,6 +1825,7 @@ left:25%!important
   margin-top:10%;
   margin-bottom:10%;
   width: 100%;
+  flex-wrap: wrap;
 }
 .Section7-first{
   width: 50%;
