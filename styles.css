@@ -1755,6 +1755,12 @@ font-size: 65px!important;
 
 
 @media screen and (max-width:320px){
+
+  .Section5-Portfolio-right1-content :nth-child(1) h2::after{
+bordeR:1px solid black;
+left:25%!important
+  }
+  
   .Section5-Portfolio{
     padding-top:20%!important
   }
