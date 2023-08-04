@@ -1934,6 +1934,8 @@ align-items: center;
 
 
 
+
+
 @media screen and (max-width:320px){
   .Section7-first{
     width: 100%;
@@ -1952,6 +1954,28 @@ align-items: center;
    width:100%!important;
     
   }
+
+
+
+  .Section7-second{
+    width:100%!important;
+    padding:0px 30px 
+  }
+
+  .Section7-second-number :nth-child(2){
+  font-size:25px!important;
+  }
+
+  .Section7-second-number :nth-child(3){
+    font-size:30px!important;
+  }
+
+  .Section7-second .Section7-second-number h2::after{
+bordeR:1px solid black;
+left:25%
+  }
+
+
 }
 
 
