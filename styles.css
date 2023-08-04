@@ -250,6 +250,7 @@ body{
   font-weight: 700;
   font-family: "montserrat";
   letter-spacing:-3px;
+   text-align: left;
 }
 
 .cont .row .col h1>span{
