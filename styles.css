@@ -1449,11 +1449,43 @@ width:40%
 
 
 
+
+
 @media screen and (max-width:400px){
 .Section4-first div>h1{
   font-size:24px!important;
 }
+
+.Section4-third-content{
+  width:70%!important
 }
+
+.Section4-third-content h3{
+font-size:18px!important;
+}
+.Section4-third-paragraph{
+  font-size:12px!important;
+  width:70%;
+  
+}
+
+.Section4-third::before{
+height:70px!important;
+width:100%;
+padding-left:0
+}
+
+
+.Section4-third-number h2{
+  width:60%!important;
+}
+
+.Section4-third .Section4-third-number h2::after{
+bordeR:1px solid black
+}
+
+}
+
 
 
 
