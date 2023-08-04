@@ -648,8 +648,9 @@ width: 80%;
 @media screen and (max-width:371px){
   
 
-    .cont .row{
+     .cont .row{
       width:90%;
+      padding-left:14%      
     }
 
     .cont .row .col h1{
@@ -658,9 +659,12 @@ width: 80%;
       text-align: left;
       }
       .cont .row .col p{
-        font-size:12px;
+        font-size:11px;
+        width:80%;
         text-align: justify;
+        
       }
+   
    
 
 }
