@@ -470,23 +470,50 @@ background-position:center center;
     }
 
     .cont .row{
-      width:60%;
+      width:70%;
     }
 
     .cont .row .col h1{
       font-size:20px;
       letter-spacing: 0;
+      text-align: left;
       }
       .cont .row .col p{
-        font-size:13px;
+        font-size:12px;
+        text-align: justify;
       }
    
 .we-make{
   height:60vh;
 }
 
+}
+
+
+
+@media screen and (max-width:371px){
+  
+
+    .cont .row{
+      width:90%;
+      padding-left:14%      
+    }
+
+    .cont .row .col h1{
+      font-size:15px;
+      letter-spacing: 0;
+      text-align: left;
+      }
+      .cont .row .col p{
+        font-size:11px;
+        width:80%;
+        text-align: justify;
+        
+      }
+   
 
 }
+
 
 
 
@@ -599,7 +626,7 @@ width: 80%;
 }
 
 @media screen and (max-width:576px){
-  .Section2{
+ .Section2{
     flex-wrap: wrap;
     justify-content: center;
     height:100vh;
@@ -612,63 +639,33 @@ width: 80%;
     width: 100%;
     text-align: center;
   }
-}
 
+  .Section2-left1 :first-child{
+font-size:60px!important;
+text-align: center;
+  }
 
-@media screen and (max-width:468px){
-  .header-wrapper-right-image {
-    height:50vh;
-  
-    }
-
-    .cont .row{
-      width:70%;
-    }
-
-    .cont .row .col h1{
-      font-size:20px;
-      letter-spacing: 0;
-      text-align: left;
-      }
-      .cont .row .col p{
-        font-size:12px;
-        text-align: justify;
-      }
-   
-.we-make{
-  height:60vh;
-}
-
-
+  .Section2-left1 :last-child{
+  text-align: center!important;
+  }
 }
 
 
 
 
-@media screen and (max-width:371px){
-  
 
-      .cont .row{
-      width:90%;
-      padding-left:14%      
-    }
 
-    .cont .row .col h1{
-      font-size:15px;
-      letter-spacing: 0;
-      text-align: left;
-      }
-      .cont .row .col p{
-        font-size:11px;
-        width:80%;
-        text-align: justify;
-        
-      }
-   
-   
-   
 
+@media screen and (max-width:478px){
+  .Section2{
+    flex-wrap: wrap;
+    justify-content: center;
+    height:80vh;
+  }
 }
+
+
+
 
 
 /*---------------------Section--2-----Ending-------------------------------------------------*/
