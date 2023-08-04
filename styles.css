@@ -1805,6 +1805,12 @@ left:25%!important
 .Section6-Portfolio-heading{
   text-align: center;
 }
+
+.Section6-Portfolio{
+  margin-top:100%;
+  height:10vh
+
+}
 /*--------*/
 
 
