@@ -988,21 +988,162 @@ padding-left:70px!important
 
 
 
+
 @media screen and (max-width:576px){
+
+
   .Section3{
     flex-wrap: wrap;
     justify-content: center;
     height:100vh;
-    bordeR:2px solid 
+    width:100%!important;
+   
   }
   .Section3-left1{
     width: 100%;
     text-align: center;
   }
-  .Section3-right1{
-    width: 100%;
-    text-align: center;
+
+  .Section3-left1 :first-child{
+ text-align: center;
+ font-size: 60px!important;
   }
+
+  .Section3-left1 :last-child{
+ text-align:center!important;
+ font-size: 25px!important;
+  }
+
+
+  .Section3-right1{
+    width: 100%!important;
+    text-align: center;
+    background-size:58vh;
+  
+  }
+
+  .Section3-right1-paragraph{
+    width:50%;
+    color:white;
+    padding:0!important;
+    text-align: justify;
+    font-size:13px!important;
+    margin-top:30px!important;
+  } 
+
+
+  .Section3-right1-content{
+    display: flex!important;
+    align-items: center!important;
+    transform:translateY(30px);
+    width:50%
+  }
+
+  .Section3-right1-content h3{
+    font-size:25px!important;
+    padding:0!important;
+    margin:0!important;
+  
+
+  }
+  .Section3-right1-content :last-child{
+    margin-left:10px!important
+  }
+
+  .Section3-third-number{
+    padding-left:20px;
+    width:55%!important;
+    transform:translateY(40px)
+  }
+
+  .Section3-third-number h2{
+    width:70%!important
+  }
+
+
+  .Section3-right1 .Section3-third-number h2::after{
+left:25%;
+  }
+
+}
+
+
+  
+  @media screen and (max-width:430px){
+
+    .Section3{
+      flex-wrap: wrap;
+      justify-content: center;
+      height:100vh;
+      width:100%!important;
+     
+    }
+    .Section3-left1{
+      width: 100%;
+      text-align: center;
+    }
+  
+    .Section3-left1 :first-child{
+   text-align: center;
+   font-size: 60px!important;
+    }
+  
+    .Section3-left1 :last-child{
+   text-align:center!important;
+   font-size: 25px!important;
+    }
+  
+  
+    .Section3-right1{
+      width: 100%!important;
+      text-align: center;
+      background-size: contain;
+    
+    }
+  
+    .Section3-right1-paragraph{
+      width:80%;
+      color:white;
+      padding:0!important;
+      text-align: justify;
+      font-size:10px!important;
+      margin-top:5px!important;
+    } 
+  
+  
+    .Section3-right1-content{
+      display: flex!important;
+      align-items: center!important;
+      transform:translateY(10px);
+      width:80%
+    }
+  
+    .Section3-right1-content h3{
+      font-size:25px!important;
+      padding:0!important;
+      margin:0!important;
+    
+  
+    }
+    .Section3-right1-content :last-child{
+      margin-left:10px!important
+    }
+  
+    .Section3-third-number{
+      padding-left:20px;
+      width:80%!important;
+      transform:translateY(10px)
+    }
+  
+    .Section3-third-number h2{
+      width:90%!important;
+    }
+  
+  
+    .Section3-right1 .Section3-third-number h2::after{
+  left:20%;
+  }
+
 }
 
 
