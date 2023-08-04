@@ -192,8 +192,8 @@
    text-align:center;
    }
    .Section1-Image{
-    /* background-image:url("./assets/Potfolio-img2.PNG"); */
-    background-image: url("./assets/back-ground-bilawal.jpg");
+    /* background-image:url("Potfolio-img2.PNG"); */
+    background-image: url("back-ground-bilawal.jpg");
     background-size:contain;
     background-position:center center;
     background-repeat: no-repeat;
@@ -210,7 +210,7 @@
     .Section1-Image{
       min-height:25vh!important;
       background-size: 40vh;
-          background-image:url("./assets/Potfolio-img2.PNG");
+          background-image:url("Potfolio-img2.PNG");
 
      }
    }
@@ -253,7 +253,7 @@
 
   .Section2-Portfolio-left1{
     width:45%;
-    background-image:url("./assets/ui_icon_505.png");
+    background-image:url("ui_icon_505.png");
     min-height:60vh;
     background-position:center center;
     background-size:contain;
@@ -263,7 +263,7 @@
   }
 
   .Section2-Portfolio-right1{
-  background-image:url("./assets/Ellipse81.png");
+  background-image:url("Ellipse81.png");
   background-size:contain;
   background-repeat: no-repeat;
   min-height:60vh;
@@ -595,7 +595,7 @@ width:100%!important;
 }
 
 .Section4-Portfolio-left1{
-  background-image:url("./assets/Clients.png");
+  background-image:url("Clients.png");
   background-position:center center;
   background-size:contain;
   min-height:50vh;
@@ -941,7 +941,7 @@ font-size: 65px!important;
 
 
 .Section7-Portfolio-left1{
-  background-image:url("./assets/Ellipse81.png");
+  background-image:url("Ellipse81.png");
   background-size:contain;
   background-repeat: no-repeat;
   min-height:60vh;
@@ -953,7 +953,7 @@ font-size: 65px!important;
 
 
 .Section7-Portfolio-right1-image{
-  background-image:url("./assets/Section9-image.PNG");
+  background-image:url("Section9-image.PNG");
   background-size:contain;
   background-repeat: no-repeat;
   min-height:60vh;
