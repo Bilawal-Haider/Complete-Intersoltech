@@ -615,6 +615,57 @@ width: 80%;
 }
 
 
+@media screen and (max-width:468px){
+  .header-wrapper-right-image {
+    height:50vh;
+  
+    }
+
+    .cont .row{
+      width:70%;
+    }
+
+    .cont .row .col h1{
+      font-size:20px;
+      letter-spacing: 0;
+      text-align: left;
+      }
+      .cont .row .col p{
+        font-size:12px;
+        text-align: justify;
+      }
+   
+.we-make{
+  height:60vh;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width:371px){
+  
+
+    .cont .row{
+      width:90%;
+    }
+
+    .cont .row .col h1{
+      font-size:20px;
+      letter-spacing: 0;
+      text-align: left;
+      }
+      .cont .row .col p{
+        font-size:12px;
+        text-align: justify;
+      }
+   
+
+}
+
+
 /*---------------------Section--2-----Ending-------------------------------------------------*/
 
 
