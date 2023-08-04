@@ -503,6 +503,7 @@ background-position:center center;
       font-size:15px;
       letter-spacing: 0;
       text-align: left;
+       transform: translateY(20px);
       }
       .cont .row .col p{
         font-size:11px;
